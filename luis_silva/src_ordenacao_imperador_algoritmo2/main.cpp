@@ -9,6 +9,7 @@ foi o Insertion Sort
 #include "headers/celula.hpp"
 #include "headers/insertion.hpp"
 
+
 int main(){
 
     int n_linhas, i;
@@ -24,11 +25,13 @@ int main(){
         std::cin >> distancia_civ;
         std::cin >> populacao_civ;
 
-        civilizacoes[i] = CelulaCiv(distancia_civ, populacao_civ, nome_civ);
+        civilizacoes[i].setNome(nome_civ);
+        civilizacoes[i].setDistancia(distancia_civ);
+        civilizacoes[i].setPopulacao(populacao_civ);
         tamanho_array++;
     }
 
-    std::cout << civilizacoes[i].getDistancia() << std::endl;
+    std::cout << civilizacoes[0].getDistancia() << std::endl;
 
     return 0;
 }
