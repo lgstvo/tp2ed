@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-Wall -Wextra
 EXEC=./tp2 # nome do executavel que sera gerado, nao troque
-#TMPOUT=tp1.testresult
+TMPOUT=tp2.testresult
 
 
 $(EXEC): main.cpp celula.o mergesort.o
@@ -14,8 +14,8 @@ mergesort.o: headers/mergesort.cpp
 	$(CC) $(CFLAGS) -c headers/mergesort.cpp -o mergesort.o
 
 
-#test: $(EXEC)
-#	@bash run_tests.sh $(EXEC) $(TMPOUT)
+test: $(EXEC)
+	@bash run_tests.sh $(EXEC) $(TMPOUT)
 
 clean:
 	rm -rf mergesort.o

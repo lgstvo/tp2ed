@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-Wall -Wextra
 EXEC=./tp2 # nome do executavel que sera gerado, nao troque
-#TMPOUT=tp1.testresult
+TMPOUT=tp2.testresult
 
 
 $(EXEC): main.cpp celula.o
@@ -14,8 +14,8 @@ heapsort.o: headers/heapsort.cpp
 	$(CC) $(CFLAGS) -c headers/heapsort.cpp -o celula.o 
 
 
-#test: $(EXEC)
-#	@bash run_tests.sh $(EXEC) $(TMPOUT)
+test: $(EXEC)
+	@bash run_tests.sh $(EXEC) $(TMPOUT)
 
 clean:
 	rm -rf heapsort.o

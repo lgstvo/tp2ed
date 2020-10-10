@@ -1,7 +1,7 @@
 CC=g++
 CFLAGS=-Wall -Wextra
 EXEC=./tp2 # nome do executavel que sera gerado, nao troque
-#TMPOUT=tp1.testresult
+TMPOUT=tp2.testresult
 
 
 $(EXEC): main.cpp celula.o
@@ -11,8 +11,8 @@ celula.o: headers/celula.cpp
 	$(CC) $(CFLAGS) -c headers/celula.cpp -o celula.o 
 
 
-#test: $(EXEC)
-#	@bash run_tests.sh $(EXEC) $(TMPOUT)
+test: $(EXEC)
+	@bash run_tests.sh $(EXEC) $(TMPOUT)
 
 clean:
 	rm -rf bubble.o
