@@ -5,6 +5,7 @@ foi o Insertion Sort
 
 #include <cstdio>
 #include <iostream>
+#include <string>
 #include "headers/celula.hpp"
 #include "headers/insertion.hpp"
 
