@@ -31,6 +31,12 @@ int main(){
         civilizacoes[i].setPopulacao(populacao_civ);
         n_civilizacoes++;
     }
-    
+
+    bubblesort(civilizacoes, n_civilizacoes);
+
+    for(int i = 0; i < n_civilizacoes; i++){
+        std::cout << civilizacoes[i].getNome() << " " << civilizacoes[i].getDistancia() << " " << civilizacoes[i].getPopulacao() << std::endl;
+    }
+
     return 0;
 }

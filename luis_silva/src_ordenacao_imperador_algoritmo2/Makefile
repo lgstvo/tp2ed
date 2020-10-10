@@ -10,9 +10,6 @@ $(EXEC): main.cpp celula.o
 celula.o: headers/celula.cpp
 	$(CC) $(CFLAGS) -c headers/celula.cpp -o celula.o 
 
-bubble.o: headers/bubble.cpp
-	$(CC) $(CFLAGS) -c headers/bubble.cpp -o bubble.o 
-
 
 #test: $(EXEC)
 #	@bash run_tests.sh $(EXEC) $(TMPOUT)
