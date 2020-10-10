@@ -1,8 +1,3 @@
-/*
-O método escolhido para o algorítmo 2 do imperador
-foi o Insertion Sort
-*/
-
 #include <iostream>
 #include <string>
 #include "headers/celula.hpp"
