@@ -1,7 +1,6 @@
 #ifndef CELULA_CIV
 #define CELULA_CIV
 
-#include <cstdio>
 #include <iostream>
 #include <string>
 
