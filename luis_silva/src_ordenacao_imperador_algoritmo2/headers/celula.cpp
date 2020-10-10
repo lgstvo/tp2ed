@@ -37,3 +37,7 @@ void CelulaCiv::setPopulacao(int populacao){
 void CelulaCiv::setNome(std::string nome){
     this->nome = nome;
 }
+
+CelulaCiv::~CelulaCiv(){
+    
+}

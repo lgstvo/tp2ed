@@ -21,6 +21,8 @@ class CelulaCiv{
         void setDistancia(int);
         void setPopulacao(int);
         void setNome(std::string);
+
+        ~CelulaCiv();
 };
 
 #endif
