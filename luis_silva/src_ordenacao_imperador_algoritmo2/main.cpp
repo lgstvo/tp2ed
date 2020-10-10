@@ -14,5 +14,9 @@ int main(){
 
     int n_linhas, i;
     
+
+    std::cin >> i;
+    std::cout << i << std::endl;
+    
     return 0;
 }

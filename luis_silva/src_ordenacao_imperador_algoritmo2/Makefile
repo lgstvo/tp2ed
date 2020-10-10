@@ -1,12 +1,14 @@
 CC=g++
 CFLAGS=-Wall -Wextra
 EXEC=./tp2 # nome do executavel que sera gerado, nao troque
-##TMPOUT=tp1.testresult
+#TMPOUT=tp1.testresult
 
 
-$(EXEC): main.cpp celula.o insertion.o
-	$(CC) $(CFLAGS) main.cpp celula.o insertion.o -o $(EXEC)
+$(EXEC): main.cpp celula.o
+	$(CC) $(CFLAGS) main.cpp celula.o -o $(EXEC)
 
+celula.o: headers/celula.cpp
+	$(CC) $(CFLAGS) headers/celula.cpp -o celula.o 
 
 
 #test: $(EXEC)
