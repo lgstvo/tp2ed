@@ -8,7 +8,7 @@ $(EXEC): main.cpp celula.o
 	$(CC) $(CFLAGS) main.cpp celula.o -o $(EXEC)
 
 celula.o: headers/celula.cpp
-	$(CC) $(CFLAGS) headers/celula.cpp -o celula.o 
+	$(CC) $(CFLAGS) -c headers/celula.cpp -o celula.o 
 
 
 #test: $(EXEC)
