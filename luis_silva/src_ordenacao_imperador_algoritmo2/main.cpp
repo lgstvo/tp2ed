@@ -6,7 +6,7 @@ foi o Insertion Sort
 #include <iostream>
 #include <string>
 #include "headers/celula.hpp"
-#include "headers/bubble.hpp"
+#include "headers/bubble.cpp"
 
 
 int main(){
