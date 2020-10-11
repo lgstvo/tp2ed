@@ -6,6 +6,9 @@ void constroiHeap(CelulaCiv civilizacoes[], int tamanho_heap, int item_posicao){
     int maior_item = item_posicao;
     int filho_esquerdo = 2*maior_item + 1;
     int filho_direito = 2*maior_item + 2;
+    if(filho_direito >= 2000000){
+        return;
+    }
 
     if(civilizacoes[filho_esquerdo].getDistancia() == civilizacoes[maior_item].getDistancia()){
         if(filho_esquerdo < tamanho_heap && civilizacoes[filho_esquerdo].getPopulacao() < civilizacoes[maior_item].getPopulacao()){
