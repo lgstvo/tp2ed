@@ -28,7 +28,7 @@
           "name": "g++ - Debug tests",
           "type": "cppdbg",
           "request": "launch",
-          "args": ["<", "${workspaceFolder}/luis_silva/src_ordenacao_imperador_algoritmo2/tests/9.in"],
+          "args": ["<", "${workspaceFolder}/luis_silva/src_ordenacao_imperador_algoritmo2/tests/0.in"],
           "stopAtEntry": false,
           "cwd": "${workspaceFolder}",
           "environment": [],
