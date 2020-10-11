@@ -8,7 +8,7 @@ void bubblesort(CelulaCiv civilizacoes[], int ultimo){
     CelulaCiv swap_aux;
     
     for(int i = ultimo; i > 0; i--){
-        for(int j = 0; j < i--; j++){
+        for(int j = 0; j < (i-1); j++){
             if(civilizacoes[j].getDistancia() == civilizacoes[j+1].getDistancia()){
                 if(civilizacoes[j].getPopulacao() < civilizacoes[j+1].getPopulacao()){
                     swap_aux = civilizacoes[j];
