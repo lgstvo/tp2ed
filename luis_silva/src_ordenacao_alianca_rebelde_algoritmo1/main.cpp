@@ -11,9 +11,9 @@ int main(){
     std::string nome_civ;
 
     n_civilizacoes = 0;
-    CelulaCiv *civilizacoes = new CelulaCiv[2000000];
+    CelulaCiv *civilizacoes = new CelulaCiv[2000001];
 
-    std::cin >> n_linhas;;
+    std::cin >> n_linhas;
 
     for(i = 0; i < n_linhas; i++){
 
