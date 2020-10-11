@@ -26,17 +26,17 @@ int main(){
         civilizacoes[i].setPopulacao(populacao_civ);
         n_civilizacoes++;
     }
-    //clock_t start = clock();
+    clock_t start = clock();
 
     heapsort(civilizacoes, n_civilizacoes);
 
-    //clock_t end = clock();
+    clock_t end = clock();
 
-    //std::cout << "ETDA: " << (end - start) / double(CLOCKS_PER_SEC) << "seconds" << std::endl;
+    std::cout << "ETDA: " << (end - start) / double(CLOCKS_PER_SEC) << "seconds" << std::endl;
 
-    for(int i = 0; i < n_civilizacoes; i++){
-        std::cout << civilizacoes[i].getNome() << " " << civilizacoes[i].getDistancia() << " " << civilizacoes[i].getPopulacao() << std::endl;
-    }
+    //for(int i = 0; i < n_civilizacoes; i++){
+    //    std::cout << civilizacoes[i].getNome() << " " << civilizacoes[i].getDistancia() << " " << civilizacoes[i].getPopulacao() << std::endl;
+    //}
 
     return 0;
 }
