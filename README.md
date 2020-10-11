@@ -14,14 +14,14 @@ Maior primeiro
 
 Populações iguais devem ser desempatadas pelo nome
 
-Imperador Alg1 = (escolhido por mim) Insertion
+Imperador Alg1 = (escolhido por mim) Selection
 
-Imperador Alg2 = (escolhido por mim) Selection
+Imperador Alg2 = (escolhido por mim) Bubble
 
 
-Rebelde Alg1 = (escolhido por mim) Mergesort
+Rebelde Alg1 = (escolhido por mim) Heapsort
 
-Rebelde Alg2 = (escolhido por mim) Heapsort
+Rebelde Alg2 = (escolhido por mim) Mergesort
 
 Esses algoritmos foram usados pois o Quicksort tem pior caso de n², e não queremos que o algoritmo da aliança tenha velocidade igual ao do imperador
 
