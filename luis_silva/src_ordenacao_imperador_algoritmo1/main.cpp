@@ -26,11 +26,16 @@ int main(){
         n_civilizacoes++;
     }
 
+    clock_t start = clock();
+
     selectionsort(civilizacoes, n_civilizacoes);
 
-    for(int i = 0; i < n_civilizacoes; i++){
-        std::cout << civilizacoes[i].getNome() << " " << civilizacoes[i].getDistancia() << " " << civilizacoes[i].getPopulacao() << std::endl;
-    }
+    clock_t end = clock();
+    std::cout << "ETDA: " << (end - start) / double(CLOCKS_PER_SEC) << "seconds" << std::endl;
+
+    //for(int i = 0; i < n_civilizacoes; i++){
+    //    std::cout << civilizacoes[i].getNome() << " " << civilizacoes[i].getDistancia() << " " << civilizacoes[i].getPopulacao() << std::endl;
+    //}
 
     return 0;
 }
