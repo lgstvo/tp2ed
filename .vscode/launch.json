@@ -14,7 +14,7 @@
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "program": "${workspaceFolder}/luis_silva/src_ordenacao_alianca_rebelde_algoritmo1/tp2",
+            "program": "${workspaceFolder}/luis_silva/src_ordenacao_imperador_algoritmo2/tp2",
             "miDebuggerPath": "/usr/bin/gdb",
             "setupCommands": [
                 {
@@ -28,13 +28,13 @@
           "name": "g++ - Debug tests",
           "type": "cppdbg",
           "request": "launch",
-          "args": ["<", "${workspaceFolder}/luis_silva/src_ordenacao_alianca_rebelde_algoritmo1/tests/9.in"],
+          "args": ["<", "${workspaceFolder}/luis_silva/src_ordenacao_imperador_algoritmo2/tests/9.in"],
           "stopAtEntry": false,
           "cwd": "${workspaceFolder}",
           "environment": [],
           "externalConsole": false,
           "MIMode": "gdb",
-          "program": "${workspaceFolder}/luis_silva/src_ordenacao_alianca_rebelde_algoritmo1/tp2",
+          "program": "${workspaceFolder}/luis_silva/src_ordenacao_imperador_algoritmo2/tp2",
           "miDebuggerPath": "/usr/bin/gdb",
           "setupCommands": [
               {
